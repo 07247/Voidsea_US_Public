@@ -1,0 +1,26 @@
+# Local credentials and private settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local environments / editor / caches
+.venv/
+venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.DS_Store
+# Downloaded data, account state and generated outputs
+data/**
+!data/historical/
+!data/historical/README.md
+reports/
+backtest/results/
+*.log
+*.sqlite*
+*.db
+*.zip
